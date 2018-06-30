@@ -8,10 +8,7 @@ import { addToDo } from '../actions/index';
 class AddToDo extends Component {
   constructor() {
     super();
-    this.state = { 
-      input: "", 
-      playing: false 
-    };
+    this.state = { input: "" };
     this.handleChange = this.handleChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
     this.handleEnter = this.handleEnter.bind(this);

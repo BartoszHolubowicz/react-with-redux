@@ -15,7 +15,8 @@ class AddToDo extends Component {
   }
   handleChange(e) {
     this.setState({
-      input: e.target.value
+      input: e.target.value,
+      playing: false
     });
   }
   handleClick() {
